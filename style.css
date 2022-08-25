@@ -1,0 +1,42 @@
+.nav{
+    background-color: gray;
+    width: 1250px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.nav-title{
+    color: white;
+    padding: 10px;
+}
+
+.nav-links li{
+display: inline-block;
+padding: 20px;
+font-family:'Courier New', Courier, monospace;
+
+}
+.nav-links li a{
+    justify-content: flex-end;
+    color: white;
+}
+
+.nav-links li button{
+    padding: 9px 25px;
+    background-color:lightseagreen;
+    border-color: black;
+    color:white;
+    border:10px 20px;
+    cursor:pointer;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+
+
+a{
+    text-decoration:none;
+}
